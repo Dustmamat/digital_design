@@ -1,0 +1,404 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+Ecska
+Z0 w1742181394
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_cska
+Z4 8C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\cska.vhd
+Z5 FC:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\cska.vhd
+l0
+L4
+VJ4bb3]hga:^b9HUhm:LYd1
+!s100 IdQ2[RW03E=PjU;1FROla1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1742181536
+!i10b 1
+Z8 !s108 1742181535.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\cska.vhd|
+Z10 !s107 C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\cska.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aadder
+R1
+R2
+DEx4 work 4 cska 0 22 J4bb3]hga:^b9HUhm:LYd1
+l31
+L11
+VTCUYR8Agogi92F9n74m3?3
+!s100 >W2WNYG:H83WhOlQhIKN02
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efa
+Z13 w1742172207
+R1
+R2
+R3
+Z14 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/fa.vhd
+Z15 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/fa.vhd
+l0
+L4
+VbFm=D[IfE1<kV?NTI7o<d3
+!s100 6U`ZP;dB3]a>Bzc@JY_O21
+R6
+32
+Z16 !s110 1742181534
+!i10b 1
+Z17 !s108 1742181534.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/fa.vhd|
+Z19 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/fa.vhd|
+!i113 1
+R11
+R12
+Abehv
+R1
+R2
+DEx4 work 2 fa 0 22 bFm=D[IfE1<kV?NTI7o<d3
+l11
+L10
+VD`^3SYO;ckSPb;U`WoGe40
+!s100 i:Lml5aOjVQX^DcHH8Tjf3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Efinal_tb
+Z20 w1742181527
+R1
+R2
+R3
+Z21 8C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_csea\part3_tb.vhd
+Z22 FC:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_csea\part3_tb.vhd
+l0
+L4
+VS;fKM`WK:;>Le??3I>d<S3
+!s100 m=_a@HEZ`TCd_6@?]VY7L0
+R6
+32
+Z23 !s110 1742181535
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_csea\part3_tb.vhd|
+Z25 !s107 C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_csea\part3_tb.vhd|
+!i113 1
+R11
+R12
+Afinal_testbench
+R1
+R2
+DEx4 work 8 final_tb 0 22 S;fKM`WK:;>Le??3I>d<S3
+l19
+L7
+V?CZ_3hGz0L9I:4JSG0C951
+!s100 ^fJeGz2<ToX0_PgHIH_>@1
+R6
+32
+R23
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Eflipflop
+Z26 w1742175576
+R1
+R2
+R3
+Z27 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/flipflop.vhd
+Z28 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/flipflop.vhd
+l0
+L3
+VJBWnndT5;>jZPmUYWMV^_3
+!s100 hS<9O5Z0?0I8>WMG7dVA:1
+R6
+32
+R16
+!i10b 1
+R17
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/flipflop.vhd|
+Z30 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/flipflop.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 8 flipflop 0 22 JBWnndT5;>jZPmUYWMV^_3
+l8
+L7
+V?^<EMa6E37TSUD5zW1W_B0
+!s100 =bez7JPl]hKob?<H>4z?P0
+R6
+32
+R16
+!i10b 1
+R17
+R29
+R30
+!i113 1
+R11
+R12
+Emux2to1
+Z31 w1742173178
+R1
+R2
+R3
+Z32 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1.vhd
+Z33 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1.vhd
+l0
+L4
+VZD0AJLRhB20]o]FPP7G^<1
+!s100 Cdm7gDcCj6[XA<hm^GmSI1
+R6
+32
+R16
+!i10b 1
+R17
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1.vhd|
+Z35 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1.vhd|
+!i113 1
+R11
+R12
+Abehv
+R1
+R2
+DEx4 work 7 mux2to1 0 22 ZD0AJLRhB20]o]FPP7G^<1
+l11
+L10
+VkARYV:HOX1KHz3fB[0_@O3
+!s100 coDlz=I?agf`^gWV5maZQ3
+R6
+32
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Emux2to1_4bit
+Z36 w1742173028
+R1
+R2
+R3
+Z37 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1_4bit.vhd
+Z38 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1_4bit.vhd
+l0
+L5
+V^o5nQEzeE3PK6M7mEzL8b0
+!s100 fCfS]0Amc8:?>=<FY9RVb3
+R6
+32
+R23
+!i10b 1
+R8
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1_4bit.vhd|
+Z40 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/mux2to1_4bit.vhd|
+!i113 1
+R11
+R12
+Abehv
+R1
+R2
+DEx4 work 12 mux2to1_4bit 0 22 ^o5nQEzeE3PK6M7mEzL8b0
+l13
+L12
+V@L@XX=`z0e<E]nh_e611N2
+!s100 >d69SBUbj0cKdbe3cXO5T0
+R6
+32
+R23
+!i10b 1
+R8
+R39
+R40
+!i113 1
+R11
+R12
+Eovf
+Z41 w1742176660
+R1
+R2
+R3
+Z42 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/ovf.vhd
+Z43 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/ovf.vhd
+l0
+L5
+V?HfeUonfGD17gkbBNDoS93
+!s100 e5il@inMM<9kMLPHUH?4_1
+R6
+32
+R23
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/ovf.vhd|
+Z45 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/ovf.vhd|
+!i113 1
+R11
+R12
+Abehv
+R1
+R2
+DEx4 work 3 ovf 0 22 ?HfeUonfGD17gkbBNDoS93
+l13
+L12
+VPNBLZ<LabA@UHJdLET]U]2
+!s100 ^Ue?d@P2ClA<Enm^@>Vbe0
+R6
+32
+R23
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Epart3_cska
+Z46 w1742181519
+Z47 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z48 8C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\part3_cska.vhd
+Z49 FC:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\part3_cska.vhd
+l0
+L4
+VdVM1bT1nHcXacXnM9`5m`2
+!s100 CI:4LPP21W2d7=AW3DSfa3
+R6
+32
+R7
+!i10b 1
+Z50 !s108 1742181536.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\part3_cska.vhd|
+Z52 !s107 C:\Users\ammar\Desktop\Polito\Third Year\DSE\lab3\part3_cska\part3_cska.vhd|
+!i113 1
+R11
+R12
+Ap3
+R47
+R1
+R2
+DEx4 work 10 part3_cska 0 22 dVM1bT1nHcXacXnM9`5m`2
+l43
+L11
+VWn=Ce1796T2Rh<SH?b?0S1
+!s100 FidgF^o150XmA<<N?dfHj2
+R6
+32
+R7
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R11
+R12
+Erca4
+Z53 w1742174882
+R1
+R2
+R3
+Z54 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/rca4.vhd
+Z55 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/rca4.vhd
+l0
+L4
+Ve`=NBI>LiCW<B5C<cNZ<00
+!s100 N9?KMea]DzYd4@Z6n0lni0
+R6
+32
+R23
+!i10b 1
+R8
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/rca4.vhd|
+Z57 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/rca4.vhd|
+!i113 1
+R11
+R12
+Abehv
+R1
+R2
+DEx4 work 4 rca4 0 22 e`=NBI>LiCW<B5C<cNZ<00
+l20
+L12
+Vc5l8^HI5`8h]hQ1;W?9Z=1
+!s100 UIcoOGF5IJjHB^iiUQEgR3
+R6
+32
+R23
+!i10b 1
+R8
+R56
+R57
+!i113 1
+R11
+R12
+Eregn
+Z58 w1742175604
+R47
+R1
+R2
+R3
+Z59 8C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/regn.vhd
+Z60 FC:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/regn.vhd
+l0
+L4
+V_g>g@CLNgEnQ9j=bOd17=0
+!s100 4A<QejDDUHzOFmTiT5`oA1
+R6
+32
+R23
+!i10b 1
+R8
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/regn.vhd|
+Z62 !s107 C:/Users/ammar/Desktop/Polito/Third Year/DSE/lab3/part3_csea/regn.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R47
+R1
+R2
+DEx4 work 4 regn 0 22 _g>g@CLNgEnQ9j=bOd17=0
+l11
+L10
+VC5Ade]JJz_?cgSYJn_77b3
+!s100 1:4H]3a>]8M;C^<ioXG]e0
+R6
+32
+R23
+!i10b 1
+R8
+R61
+R62
+!i113 1
+R11
+R12

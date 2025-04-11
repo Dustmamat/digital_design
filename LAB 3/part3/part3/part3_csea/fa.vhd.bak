@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY fa IS
+PORT(X,Y,c_in: IN STD_LOGIC;
+	s,c_out: OUT STD_LOGIC);
+END ENTITY;
+
+
+ARCHITECTURE behv OF fa IS
+BEGIN
+PROCESS(X,Y,c_in)
+BEGIN
+s<=X xor Y xor c_in;
+c_out<= (X and Y ) OR (X and c_out) OR (Y and c_out);
+END PROCESS;
+END ARCHITECTURE;
