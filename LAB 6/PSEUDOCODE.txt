@@ -1,0 +1,34 @@
+IF START='1' AND RISING_EDGE(CK) START FILTER
+DO WHILE MEM_A IS NOT FILLED
+	IF RISING_EDGE(CK) AND (WR='1' AND CS='1' ALL FOR MEM_A) THEN
+		WRITE DATA_IN TO ADDRESS --DATA_IN is in 2'C and is composed of 1 bit for sign, 7 bits for integer part
+		INCREMENT ADDRESS BY 1
+	END IF
+WHEN MEM_A IS FILLED
+	DO WHILE MEM_B IS NOT FILLED
+		
+		IF (RD='1' AND CS='1' ALL FOR MEM_A)	
+			DRIVE DATA_OUT INDICATED BY ADDRESS TO DATAPATH
+		END IF
+		READ 4 BYTES AND PERFORM THE OPERATION
+		ADDRESS IS SET TO -3
+		ADDRESS+1 FOR EVERY RISING_CLOCK
+		IF ADDRESS<0 KEEP THE REGISTER VALUE TO 0
+		DEFINE A NEW MEMORY: 4BYTES 
+		X(0)<=DATA_OUT(ADDRESS=n)
+		X(1)<=DATA_OUT(ADDRESS=n+1)
+		X(2)<=DATA_OUT(ADDRESS=n+2)
+		X(3)<=DATA_OUT(ADDRESS=n+3)
+		Y(n+3)<= -0.5X(3)-2X(2)+4X(1)+0.25X(0) --operations will be done by shifting bits
+		--Y is 10 bit 2'C with 1 bit for sign, 7 bits for integer and 2 bits for decimal part
+		IF Y(n+3)>31.75 THEN
+		Y(n+3)<=31.75
+		ELSE IF Y(n+3)<-32.75 THEN
+		Y(n+3)<=-32.75 --this is because the output will still be 8 bits in MEM_B with 2 bits dedicated to the decimal part, so 5 bits of integer part and 1 of sign
+		IN THE NEXT RISING_EDGE(CK)
+		TAKE Y(n+3) AS DATA_IN FOR MEM_B
+		END
+	END
+END 
+		
+		
